@@ -164,11 +164,12 @@ a{
   .imgs{
     margin-left: 7%;
     width: 100vw;
-    height: 50vh;
+    height: 58vh;
     background-size: 100vw;
     background-position-x:-20px ;
   }
 }
+
 .photo{
   width: 100%;
   position: relative;
@@ -178,11 +179,68 @@ a{
 @media(max-width: 480px){
 .photo{
   width: 80%;
-  position: relative;
-  top: 90px; 
-  left: 1px;
+  position:relative;
+  top:20%;
+  left: 0%;
 }
 }
+@media(max-width: 420px){
+  .photo{
+    width: 80%;
+    position:relative;
+    top:23%;
+    left: 0%;
+  }
+  }
+  @media(min-width: 414px){
+    .photo{
+      width: 80%;
+      position:relative;
+      top:23%;
+      left: 0%;
+    }
+    }
+@media(max-width: 400px){
+  .photo{
+    width: 80%;
+    position:relative;
+    top:20%;
+    left: 0%;
+  }
+  }
+@media(max-width: 393px){
+  .photo{
+    width: 80%;
+    position:relative;
+    top:23.5%;
+    left: 0%;
+  }
+  }
+@media(max-width: 375px){
+  .photo{
+    width: 80%;
+    position:relative;
+    top:24%;
+    left: 0%;
+  }
+  }
+  @media(max-width: 360px){
+    .photo{
+      width: 80%;
+      position:relative;
+      top:25%;
+      left: 0%;
+    }
+    }
+    @media(max-width: 320px){
+      .photo{
+        width: 80%;
+        position:relative;
+        top:17%;
+        left: 0%;
+      }
+}
+
 
 .content-presentacion{
   width: 50%;
@@ -193,7 +251,7 @@ a{
 @media(max-width: 480px){
   .content-presentacion{
     width: 60%;
-    margin-top: 10vh;
+    margin-top: 0vh;
   }
 }
 .content-presentacion h1{
@@ -271,8 +329,7 @@ a{
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  justify-items: center;
-  text-align: center;
+  align-items: center;
   background-color: var(--red);
   border-radius: 0 100px 100px 0 ;
   color:var(--withe);
@@ -280,13 +337,10 @@ a{
 }
 @media(max-width: 480px){
   .buttom-contac{
-    height: 4vh;
+    height: 7vh;
     width: 100%;
   }
-  .buttom-contac p{
-    position: relative;
-    top: -2.5vh;
-  }
+ 
 }
 .img-mail-buttom{
   
@@ -387,6 +441,7 @@ a{
 @media(max-width: 480px){
   .about-me p{
     font-size: 20px;
+    margin-right: 8.5%;
   }
 }
 .about-me-p{
@@ -443,14 +498,19 @@ margin-top: 6px;
   .flex-conte-moblie{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
   }
   .icons-content-mobile{
     width: 40vw;
     height: 20vh;
     background-color: var(--withe);
     display: flex;
-    
+    justify-content: center;
+  }
+  .icons-content-mobile img{
+    width: 80px;
   }
   .mobile{
     display: flex;
@@ -579,12 +639,3 @@ footer{
 footer p{
   color: var(--blue);
 }
-
-
-
-
-
-
-
-  
-
