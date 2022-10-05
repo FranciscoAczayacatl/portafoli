@@ -200,6 +200,14 @@ a{
       left: 0%;
     }
     }
+    @media(max-width: 412px){
+      .photo{
+        width: 80%;
+        position:relative;
+        top:25%;
+        left: 0%;
+      }
+      }
 @media(max-width: 400px){
   .photo{
     width: 80%;
