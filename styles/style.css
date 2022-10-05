@@ -173,7 +173,7 @@ a{
 .photo{
   width: 100%;
   position: relative;
-  top: 5px; 
+  top: -50px; 
   left: -65px;
 }
 @media(max-width: 480px){
@@ -192,7 +192,7 @@ a{
     left: 0%;
   }
   }
-  @media(min-width: 414px){
+  @media(max-width: 414px){
     .photo{
       width: 80%;
       position:relative;
