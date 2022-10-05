@@ -192,6 +192,7 @@ a{
     left: 0%;
   }
   }
+  
   @media(max-width: 414px){
     .photo{
       width: 80%;
@@ -417,7 +418,7 @@ a{
   text-align: center;
 }
 
-/* acerca de mi */
+/* acerca de mii*/
 .about-me{
   display: flex;
   flex-direction: column;
